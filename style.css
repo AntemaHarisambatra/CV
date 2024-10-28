@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header .image {
+    width: 300px;
+    height: 300px;
+    background-image: url(DSC_9618.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#renseignement {
+    list-style: none;
+    padding: 0;
+}
+
+#renseignement li {
+    margin: 5px 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.Aside {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    flex: 1 1 30%;
+}
+
+.Aside h1 {
+    color: #333;
+}
+
+#Loisirs {
+    flex-basis: 100%;
+}
+
+#Loisirs h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
